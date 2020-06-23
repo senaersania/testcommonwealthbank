@@ -14,6 +14,8 @@ import org.springframework.stereotype.Service;
 
 import com.commonwealth.test.demoregistrationlogin.model.Role;
 import com.commonwealth.test.demoregistrationlogin.model.User;
+import com.commonwealth.test.demoregistrationlogin.web.dto.UserRegistrationDto;
+import com.commonwealth.test.demoregistrationlogin.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {
